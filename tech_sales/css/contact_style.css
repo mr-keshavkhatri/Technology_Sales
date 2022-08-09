@@ -1,0 +1,105 @@
+body {
+	background-color: #f2f3f8;
+	color: #151515;
+}
+
+@font-face {
+	font-family: myFont;
+	src: url('../font/Lato/Lato-Regular.ttf');
+}
+
+* {
+	font-family: myFont;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.hm-title {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
+.contact-form {
+	background: #fff;
+	margin-top: 4%;
+}
+
+.contact-form .form-control {
+	border-radius: 1rem;
+}
+
+.contact-image {
+	text-align: center;
+}
+
+.contact-image img {
+	border-radius: 6rem;
+	width: 11%;
+	margin-top: -3%;
+	transform: rotate(29deg);
+}
+
+.form-group {
+	margin-bottom: 1em;
+}
+
+.form-group textarea {
+	width: 100%;
+	height: 150px;
+}
+
+.contact-form form {
+	padding: 14%;
+}
+
+
+.contact-form h3 {
+	margin-bottom: 8%;
+	margin-top: -15%;
+	text-align: center;
+	color: #0269AC;
+}
+
+.contact-form .btnContact {
+	color: #0269AC;
+	background: linear-gradient(to right, #0269AC 50%, #f2f3f8 50%);
+	background-position: right bottom;
+	background-size: 200% 100%;
+	padding: 10px 20px;
+	border: 1px solid #0269AC;
+	border-radius: 2em;
+	transition: all .5s ease-out;
+}
+
+.contact-form .btnContact:hover {
+	background-position: left bottom;
+	color: #dadada;
+}
+
+.login-btn {
+	width: 100px;
+	background-color: #0269AC;
+	color: #dfdfdf;
+	font-size: 20px;
+	border-radius: 1rem;
+}
+
+.login-btn:hover {
+	background-color: #1d995a;
+	color: #dfdfdf;
+}
+
+@media only screen and (max-width: 767px) {
+	.msg-btn {
+		text-align: center;
+	}
+}
